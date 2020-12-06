@@ -1,4 +1,4 @@
-import chai from "chai"
+/*import chai from "chai"
 import eq from "../eq.js"
 
 const expect = chai.expect 
@@ -12,3 +12,4 @@ describe("eq", () => {
     });
 })
 
+*/

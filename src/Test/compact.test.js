@@ -1,4 +1,4 @@
-import chai from "chai"
+/*import chai from "chai"
 import compact from "../compact.js"
 
 const expect = chai.expect 
@@ -11,3 +11,4 @@ describe("compact", () => {
         expect(compact(value)).to.eql(answer)
     });
 })
+*/

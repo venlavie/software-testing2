@@ -1,4 +1,4 @@
-import chai from "chai"
+/*import chai from "chai"
 import camelCase from "../camelCase.js"
 
 const expect = chai.expect 
@@ -11,3 +11,4 @@ describe("camelCase", () => {
         expect(camelCase(users)).to.eql(answer)
     });
 })
+*/

@@ -1,4 +1,4 @@
-import chai from "chai"
+/*import chai from "chai"
 import capitalize from "../capitalize.js"
 
 const expect = chai.expect 
@@ -12,3 +12,4 @@ describe("capitalize", () => {
         expect(capitalize(users)).to.eql(answer)
     });
 })
+*/

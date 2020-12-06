@@ -1,4 +1,4 @@
-import chai from "chai"
+/*import chai from "chai"
 import endsWith from "../endsWith.js"
 
 const expect = chai.expect 
@@ -11,3 +11,4 @@ describe("endsWith", () => {
         expect(endsWith(users, value)).to.be.true
     });
 })
+*/

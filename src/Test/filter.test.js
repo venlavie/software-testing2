@@ -1,4 +1,4 @@
-import chai from "chai"
+/*import chai from "chai"
 import filter from "../filter.js"
 
 const expect = chai.expect 
@@ -14,4 +14,4 @@ describe("filter", () => {
     it("filters array", () =>{
         expect(filter(users, ({active}) => active)).to.eql(answer)
     });
-})
+})*/

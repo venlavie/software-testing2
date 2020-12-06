@@ -1,4 +1,4 @@
-import chai from "chai"
+/*import chai from "chai"
 import every from "../every.js"
 
 const expect = chai.expect 
@@ -11,4 +11,4 @@ describe("every", () => {
     it("compare all to boolean ", () =>{
         expect(every(object, Boolean)).to.be.false
     });
-})
+})*/

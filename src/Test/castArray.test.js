@@ -1,4 +1,4 @@
-import chai from "chai"
+/*import chai from "chai"
 import castArray from "../castArray.js"
 
 const expect = chai.expect 
@@ -10,4 +10,4 @@ describe("castArray", () => {
     it("cast array", () =>{
         expect(castArray(value)).to.eql(answer)
     });
-})
+})*/

@@ -1,4 +1,4 @@
-import chai from "chai"
+/*import chai from "chai"
 import chunk from "../chunk.js"
 
 const expect = chai.expect 
@@ -14,3 +14,4 @@ describe("chunk", () => {
     });
 })
 
+*/
