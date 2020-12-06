@@ -1,0 +1,16 @@
+language: node_js
+
+node_js:
+  - 14
+
+install:
+  - npm install
+  - npm install mocha --save-dev
+  - npm install chai --save-dev
+
+before_script:
+  - npm --version
+  - mocha --version
+
+script:
+  - npm test
