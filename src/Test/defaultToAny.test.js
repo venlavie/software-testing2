@@ -1,12 +1,8 @@
-/*import chai from "chai"
 import defaultToAny from "../defaultToAny.js"
 
-const expect = chai.expect 
 
-
-describe("defaultToAny", () => {
-    it("Returns first not Null value", () =>{
-        expect(defaultToAny(undefined,2,3)).to.eql(2)
+describe("#defaultToAny()", function() {
+    test("Returns first not Null value", function() {
+        expect(defaultToAny(undefined,2,3)).toStrictEqual(2)
     });
-})
-*/
+});

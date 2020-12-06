@@ -1,7 +1,4 @@
-/*import chai from "chai"
 import filter from "../filter.js"
-
-const expect = chai.expect 
 
 const users = [
     { 'user': 'barney', 'active': true },
@@ -10,8 +7,9 @@ const users = [
 
 const answer = ['barney']
 
-describe("filter", () => {
-    it("filters array", () =>{
-        expect(filter(users, ({active}) => active)).to.eql(answer)
+
+describe("#filter()", function() {
+    test("filters array", function() {
+        expect(filter(users, ({active}) => active)).toStrictEqual(answer)
     });
-})*/
+});

@@ -1,12 +1,8 @@
-/*import chai from "chai"
 import clamp from "../clamp.js"
 
-const expect = chai.expect 
 
-
-
-describe("clamp", () => {
-    it("Clamps `number` within the inclusive `lower` and `upper` bounds", () =>{
-        expect(clamp(-10, -5, 5)).to.eql(-5)
+describe("#clamp()", function() {
+    test("Clamps `number` within the inclusive `lower` and `upper` bounds", function() {
+        expect(clamp(-10, -5, 5)).toStrictEqual(-5)
     });
-})*/
+});

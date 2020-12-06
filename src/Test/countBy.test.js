@@ -1,7 +1,4 @@
-/*import chai from "chai"
 import countBy from "../countBy.js"
-
-const expect = chai.expect 
 
 const users = [
     { 'user': 'barney', 'active': true },
@@ -10,8 +7,8 @@ const users = [
 ]
 
 
-describe("countBy", () => {
-    it("reates an object composed of keys generated from the results of running each element of `collection` thru `iteratee`.", () =>{
-        expect(countBy(users, value => value.active)).to.eql({ 'true': 2, 'false': 1 })
+describe("#countBy()", function() {
+    test("reates an object composed of keys generated from the results of running each element of `collection` thru `iteratee`.", function() {
+        expect(countBy(users, value => value.active)).toStrictEqual({ 'true': 2, 'false': 1 })
     });
-})*/
+});
