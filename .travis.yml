@@ -1,16 +1,13 @@
 language: node_js
-
 node_js:
   - 14
-
+cache:
+  directories:
+  - node_modules
+before_install:
+- npm update
 install:
-  - npm install
-  - npm install mocha --save-dev
-  - npm install chai --save-dev
-
-before_script:
-  - npm --version
-  - mocha --version
-
+- npm install
 script:
-  - npm test
+- npm test
+- coveralls < coverage/lcov.info
